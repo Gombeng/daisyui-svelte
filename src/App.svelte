@@ -1,15 +1,22 @@
 <script lang="ts">
-  import About from "./components/About.svelte";
-  import Footer from "./components/Footer.svelte";
-  import Hero from "./components/Hero.svelte";
-  import Navbar from "./components/Navbar.svelte";
-  import Work from "./components/Work.svelte";
+  import { data } from "./assets/data";
+  import { About, Footer, Hero, Navbar, ThemeSelect, Timeline, Work } from "./components";
+
+  const { themes } = data;
+  let currentTheme = "forest";
+  function updateTheme(theme: string) {
+    currentTheme = theme;
+  }
 </script>
 
-<Navbar />
-<main>
-  <Hero />
-  <About />
-  <Work />
-</main>
-<Footer />
+<div data-theme={currentTheme}>
+  <!-- <Navbar /> -->
+  <main>
+    <Hero />
+    <Timeline />
+    <About />
+    <Work />
+    <ThemeSelect {themes} onThemeChange={updateTheme} />
+  </main>
+  <Footer />
+</div>
