@@ -1,9 +1,15 @@
-import About from "./About.svelte";
 import Hero from "./Hero.svelte";
-import Navbar from "./Navbar.svelte";
-import Work from "./Work.svelte";
+import Work from "./project/Project.svelte";
 import Footer from "./Footer.svelte";
 import ThemeSelect from "./ThemeSelect.svelte";
-import Timeline from "./Timeline.svelte";
+import Techstack from "./techstack/Techstack.svelte";
+import Experience from "./experience/Experience.svelte";
 
-export { About, Hero, Navbar, Work, Footer, ThemeSelect, Timeline };
+export {
+  Hero,
+  Work,
+  Footer,
+  ThemeSelect,
+  Techstack,
+  Experience,
+};
