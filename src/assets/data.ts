@@ -13,7 +13,7 @@ export const data = {
       },
       {
         title: "linkedin",
-        link: "https://www.linkedin.com/in/syahrizal-ardana-45399a1b1/",
+        link: "https://www.linkedin.com/in/msrgombeng/",
       },
       {
         title: "github",
