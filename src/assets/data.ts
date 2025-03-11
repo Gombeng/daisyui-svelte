@@ -9,7 +9,7 @@ export const data = {
     links: [
       {
         title: "cv",
-        link: "https://drive.google.com/file/d/1nvf9xxu7AgsQiL2Q4CzH8lsHANBQ5s9B/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1b6F_gC-IneAy8xJCu5st9P_yunNdrCEM/view?usp=sharing",
       },
       {
         title: "linkedin",
